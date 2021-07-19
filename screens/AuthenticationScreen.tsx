@@ -23,8 +23,7 @@ const AuthenticationScreen = (props: Props) => {
         androidClientId: Environment.ANDROID_CLIENT_ID,
       });
       if (googleRes.type === "success") {
-        console.log("토큰", googleRes);
-        console.warn(googleRes);
+        //  구글 토큰 확보
         AsyncStorage.setItem("google_auth", JSON.stringify(googleRes)).then(
           () => {
             navigation.navigate("Dashboard");

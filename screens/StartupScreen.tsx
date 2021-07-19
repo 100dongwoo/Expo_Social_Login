@@ -14,8 +14,10 @@ const StartupScreen = (props: Props) => {
       navigation.navigate("Authentication");
       return;
     }
-    navigation("Dashboard");
+
+    navigation.navigate("Dashboard");
   };
+
   tryLogin().then();
   return (
     <View style={styles.container}>
