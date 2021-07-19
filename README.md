@@ -7,11 +7,19 @@
 - yarn add react-navigation react-native-gesture-handler
 - yarn add @react-native-async-storage/async-storage
 - yarn add expo-google-app-auth
-- 
+- yarn add @react-native-async-storage/async-storage
 
 
 ### 공부
+
 ![img.png](img.png)
+
+<hr/>
+### Facebook 
+- 
+
+
+
 
 [comment]: <> (- authentication for google signing in &#40;구글 로그인 인증&#41;)
 
@@ -19,5 +27,3 @@
 
 [comment]: <> (- Startup-for auto login functionality 시작-자동로그인 기능)
 
-
-yarn add @react-native-async-storage/async-storage
