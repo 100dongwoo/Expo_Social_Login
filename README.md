@@ -22,6 +22,10 @@
 
 ## Calendar
 - expo install expo-calendar
+![img_1.png](img_1.png)
+- node_modules/react-native-calendars/src/calendar/day/index.js (수정)
+- 달력 이모티콘 모양 Dynamic 문제 해결 못함
+![img_2.png](img_2.png)
 
 
 [comment]: <> (- authentication for google signing in &#40;구글 로그인 인증&#41;)

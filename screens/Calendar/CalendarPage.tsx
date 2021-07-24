@@ -50,7 +50,7 @@ const CalendarPage = () => {
     <View style={{ flex: 1, justifyContent: "center" }}>
       <Calendar
         onDayPress={(day) => {
-          console.warn("selecasdsadated day", day);
+          console.warn("현재날", day);
         }}
         theme={{
           "stylesheet.calendar.header": {
@@ -65,20 +65,9 @@ const CalendarPage = () => {
         markingType={"custom"}
         markedDates={{
           "2021-07-15": {
-            level: "메롱",
+            level: 1,
             color: "#64A8CC",
             textColor: "#fff",
-          },
-          "2021-07-21": {
-            customStyles: {
-              container: {
-                backgroundColor: "green",
-              },
-              text: {
-                color: "black",
-                fontWeight: "bold",
-              },
-            },
           },
           "2021-07-19": {
             customStyles: {
@@ -90,6 +79,12 @@ const CalendarPage = () => {
                 color: "green",
               },
             },
+          },
+          "2021-07-29": {
+            level: 2,
+          },
+          "2021-07-09": {
+            level: 1,
           },
         }}
       />
