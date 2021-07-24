@@ -17,9 +17,11 @@
 <hr/>
 
 ### Facebook 
+- expo install expo-facebook
+- 
 
-
-
+## Calendar
+- expo install expo-calendar
 
 
 [comment]: <> (- authentication for google signing in &#40;구글 로그인 인증&#41;)
