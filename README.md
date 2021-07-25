@@ -29,7 +29,7 @@
 
 
 - Image 태그 source Dynamic 해결
-![img_6.png](img_6.png)
+![img_6.png](img_6.png) <br/>
 
 [comment]: <> (- authentication for google signing in &#40;구글 로그인 인증&#41;)
 
@@ -37,3 +37,5 @@
 
 [comment]: <> (- Startup-for auto login functionality 시작-자동로그인 기능)
 
+###  **** 찾아봐야할 내용 ****
+- node_module 수정을 통한 달력에 이미지 삽입 / 수정 한 라이브러리 사용법 찾아보기
