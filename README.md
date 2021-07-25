@@ -1,4 +1,4 @@
-# Expo Social Login
+# Expo Calendar 공부 및 Expo Social 로그인 공부 (Google)
 
 ### Google
 - google developer 가입 후 client id 키 생성 
@@ -24,10 +24,12 @@
 - expo install expo-calendar
 ![img_1.png](img_1.png)
 - node_modules/react-native-calendars/src/calendar/day/index.js (수정)
-- 달력 이모티콘 모양 Dynamic 문제 해결 못함
 
-![img_4.png](img_4.png)
+![img_5.png](img_5.png)
 
+
+- Image 태그 source Dynamic 해결
+![img_6.png](img_6.png)
 
 [comment]: <> (- authentication for google signing in &#40;구글 로그인 인증&#41;)
 

@@ -57,6 +57,7 @@ const CalendarPage = () => {
             dayTextAtIndex0: {
               color: "red",
             },
+
             dayTextAtIndex6: {
               color: "blue",
             },
@@ -64,27 +65,54 @@ const CalendarPage = () => {
         }}
         markingType={"custom"}
         markedDates={{
-          "2021-07-15": {
+          "2021-07-25": {
             level: 1,
-            color: "#64A8CC",
-            textColor: "#fff",
-          },
-          "2021-07-19": {
             customStyles: {
-              container: {
-                backgroundColor: "red",
-                elevation: 2,
-              },
+              container: {},
               text: {
-                color: "green",
+                color: "black",
+                fontWeight: "bold",
               },
             },
           },
-          "2021-07-29": {
+          "2021-07-12": {
             level: 2,
+            customStyles: {
+              container: {},
+              text: {
+                color: "black",
+                fontWeight: "bold",
+              },
+            },
           },
-          "2021-07-09": {
+          "2021-07-15": {
+            customStyles: {
+              container: {},
+              text: {
+                color: "red",
+                fontWeight: "bold",
+              },
+            },
+          },
+          "2021-07-11": {
+            level: 3,
+            customStyles: {
+              container: {},
+              text: {
+                color: "red",
+                fontWeight: "bold",
+              },
+            },
+          },
+          "2021-07-10": {
             level: 1,
+            customStyles: {
+              container: {},
+              text: {
+                color: "black",
+                fontWeight: "bold",
+              },
+            },
           },
         }}
       />
